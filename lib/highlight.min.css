@@ -12,55 +12,115 @@
     Bitstream Vera Sans Mono,
     monospace;
   overflow-x: auto;
-  color: #ddd;
   font-weight: normal;
 }
 
-.hljs-tag,
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-literal,
-.hljs-strong,
-.hljs-name {
-  color: #f92672;
+.dark .hljs {
+  color: #ddd;
 }
 
-.hljs-code {
+.dark .hljs-tag,
+.dark .hljs-keyword,
+.dark .hljs-selector-tag,
+.dark .hljs-literal,
+.dark .hljs-strong,
+.dark .hljs-name {
+  color: #d13787;
+}
+
+.dark .hljs-code {
   color: #66d9ef;
 }
 
-.hljs-class .hljs-title {
+.dark .hljs-class .hljs-title {
   color: white;
 }
 
-.hljs-attribute,
-.hljs-symbol,
-.hljs-regexp,
-.hljs-link {
+.dark .hljs-attribute,
+.dark .hljs-symbol,
+.dark .hljs-regexp,
+.dark .hljs-link {
   color: #bf79db;
 }
 
-.hljs-string,
-.hljs-bullet,
-.hljs-subst,
-.hljs-title,
-.hljs-section,
-.hljs-emphasis,
-.hljs-type,
-.hljs-built_in,
-.hljs-builtin-name,
-.hljs-selector-attr,
-.hljs-selector-pseudo,
-.hljs-addition,
-.hljs-variable,
-.hljs-template-tag,
-.hljs-template-variable {
+.dark .hljs-string,
+.dark .hljs-bullet,
+.dark .hljs-subst,
+.dark .hljs-title,
+.dark .hljs-section,
+.dark .hljs-emphasis,
+.dark .hljs-type,
+.dark .hljs-built_in,
+.dark .hljs-builtin-name,
+.dark .hljs-selector-attr,
+.dark .hljs-selector-pseudo,
+.dark .hljs-addition,
+.dark .hljs-variable,
+.dark .hljs-template-tag,
+.dark .hljs-template-variable {
   color: #a6e22e;
 }
 
-.hljs-comment,
-.hljs-quote,
-.hljs-deletion,
-.hljs-meta {
+.dark .hljs-comment,
+.dark .hljs-quote,
+.dark .hljs-deletion,
+.dark .hljs-meta {
   color: #75715e;
+}
+
+/**
+ * Monokai style - ported by Luigi Maselli - http://grigio.org
+ */
+.light .hljs {
+  color: #34383e;
+}
+
+.light .hljs-tag,
+.light .hljs-keyword,
+.light .hljs-selector-tag,
+.light .hljs-literal,
+.light .hljs-strong,
+.light .hljs-name {
+  color: #d13787;
+}
+
+.light .hljs-code {
+  color: #66d9ef;
+}
+
+.light .hljs-class .hljs-title {
+  color: #c18401;
+}
+
+.light .hljs-attribute,
+.light .hljs-symbol,
+.light .hljs-regexp,
+.light .hljs-number,
+.light .hljs-link {
+  color: #986801;
+}
+
+.light .hljs-string,
+.light .hljs-bullet,
+.light .hljs-subst,
+.light .hljs-title,
+.light .hljs-section,
+.light .hljs-emphasis,
+.light .hljs-type,
+.light .hljs-built_in,
+.light .hljs-builtin-name,
+.light .hljs-selector-attr,
+.light .hljs-selector-pseudo,
+.light .hljs-addition,
+.light .hljs-variable,
+.light .hljs-template-tag,
+.light .hljs-template-variable {
+  color: #50a14f;
+}
+
+.light .hljs-comment,
+.light .hljs-quote,
+.light .hljs-deletion,
+.light .hljs-meta {
+  color: #a0a1a7;
 }
